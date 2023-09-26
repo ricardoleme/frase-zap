@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: 'Dancing Script', sans-serif;
+    text-align: center;
+    background: radial-gradient(circle, rgba(251, 221, 63, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    margin: 0;
+}
+
+h1 {
+    color: #FFF;
+    font-family: 'Roboto';
+}
+
+p {
+    font-size: x-large;
+    color: #25D366;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 16px 0px;
+    font-weight: bold;
+
+}
+
+
+#motivacional-container {
+    margin: 64px auto;
+    max-width: 350px;
+    padding: 32px;
+    background-color: #FFF;
+    border-radius: 16px;
+    box-shadow: 16px 8px 51px 21px rgba(0, 0, 0, 0.75);
+    font-family: 'Roboto';
+}
+
+#motivacional-canvas {
+    border: 1px solid #000;
+}
+
+
+button {
+    margin-top: 24px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+button:hover {
+    color: #000;
+}
+
+#botao-gerar {
+    background-color: #f5b01c;
+}
